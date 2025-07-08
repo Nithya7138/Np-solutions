@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+.nav-link{
+    color: white;
+
+}
+#firstpage{
+    background-image: url(./assets/fbg.jpg.jpg);
+    height: 100vh;
+    top: 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#intro{
+    margin-top: 200px;
+    height: 90px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    
+}
+#fdropdown{
+    position: relative;
+    z-index: 1000;
+}
+#electrical{
+    background-image:linear-gradient(to top left,gray,black);
+    
+}
+#eintro{
+ display: inline-block;
+ width: 100%;
+ position: relative;
+ margin-top: 100px;
+ color: white;
+ padding: 0px 30px;
+}
+img{
+    min-height: 390px;
+    image-resolution: from-image;
+}
+#plumbing{
+    position: relative;
+    top: 0px;
+    background-image:linear-gradient(to top left,gray,black);
+
+}
+#CCTV{
+    position: relative;
+    top: 0px;
+    background-image:linear-gradient(to top left,gray,black);
+
+}
+#contact{
+    position: relative;
+    top: 0px;
+    background-image:linear-gradient(to top left,gray,black);
+    height: 94vh;
+    color: white;
+    padding-top: 150px;
+
+}
+footer{
+    position: relative;
+    top: -50px;
+}
+.button{
+    transform: scale(0.9,0.9);
+}
+.button:hover{
+    background-color:wheat;
+    transform: scale(1.0,1.0);
+
+    transition: 1s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#electrical{
+    gap: 10px;
+}
+#sub:hover{
+    color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#button{
+    border: 5px solid white;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 10px 0px;
 }
+#button:hover{
+    border: 5px solid white;
+    background-image: linear-gradient(to right ,black,blue,white);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 10px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+#footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -50px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i:hover {
+    color: red;
+    /* font-size: 20px;
+    transition: 0.5s; */
+}
+#logo {
+    color: white;
+}
+#logo:hover {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#logos:hover {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
